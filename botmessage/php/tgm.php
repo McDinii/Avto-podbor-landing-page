@@ -4,7 +4,7 @@
   const TOKEN = '5579046484:AAEeUq1fIk1W2v7ALG_HADDuaYqV74vRq8k';
 
   // ID чата
-  const CHATID = '130193213';
+  const CHATID = '-688012354';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
