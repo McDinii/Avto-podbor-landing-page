@@ -1,0 +1,172 @@
+.fsel {
+	position: relative;
+	padding: 1rem 0;
+	font-size: 1.7rem;
+	color: rgba(255, 255, 255, 0.6);
+/*	color: #ffffff;*/
+	cursor: pointer;
+} 
+.fsel-act{ 
+
+}
+div.fancy-select.disabled {
+	opacity: 0.5;
+}
+
+div.fancy-select select:focus + div.trigger {
+	
+}
+
+div.fancy-select select:focus + div.trigger.open {
+	
+}
+
+.fsel .trigger {
+	position: relative;
+	display: block;
+	font-size: 1.4rem;
+	background-color: #ffffff;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+	padding: 2.5rem 3rem;
+	border-radius: 50px;
+	border: none;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.2);
+	font-family: 'Exo 2.0', sans-serif;
+	color: #999999;
+	transition: all 240ms ease-out;
+	-webkit-transition: all 240ms ease-out;
+	-moz-transition: all 240ms ease-out;
+	-ms-transition: all 240ms ease-out;
+	-o-transition: all 240ms ease-out;
+}
+
+/**/
+.fsel .trigger:after {
+	position: absolute;
+	content: "";
+	width: 9px;
+	height: 9px;
+	top: 50%;
+	margin-top: -2px;
+	right: 20px;
+	border-top: 1px solid rgba(255, 255, 255, .5);
+	border-left: 1px solid rgba(255, 255, 255, .5);
+	-webkit-transform: translateY(-50%) rotate(225deg);
+	transform: translateY(-50%) rotate(225deg);
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+div.fancy-select div.trigger.open {
+	background-color: #ffffff;
+	box-shadow: none;
+}
+
+div.fancy-select div.trigger.open:after {
+	/*border-top-color: #7A8498;*/
+}
+
+div.fsel div.trigger:after {
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 0px;
+	top: 50%;
+	margin-top: -2px;
+	right: 20px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-top: 5px solid #999999;
+/*	-webkit-transform: translateY(-50%) rotate(225deg);
+	transform: translateY(-50%) rotate(225deg);*/
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.fsel ul.options {
+	padding-left: 0;
+	list-style: none;
+	margin: 0;
+	margin-top: -2px;
+	position: absolute;
+	/*top: 2rem;*/
+	height: 23rem;
+	overflow-y: auto;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	border-radius: 10px;
+	z-index: 50;
+	overflow: auto;
+	background-color: rgba(255, 255, 255, 1);
+	width: 100%;
+
+	transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+}
+
+.fsel ul.options.open {
+	visibility: visible;
+	top: 100%;
+	opacity: 1;
+
+	/* have to use a non-visibility transition to prevent this iOS issue (bug?): */
+	/*http://stackoverflow.com/questions/10736478/css-animation-visibility-visible-works-on-chrome-and-safari-but-not-on-ios*/
+	transition: opacity 300ms ease-out, top 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out;
+}
+
+.fsel ul.options.overflowing {
+	top: auto;
+	bottom: 40px;
+
+	transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+}
+
+.fsel ul.options.overflowing.open {
+	top: auto;
+	bottom: 50px;
+
+	transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+}
+
+.fsel ul.options li {
+	padding: 2rem 2.5rem;
+	color: #404a4d;
+	cursor: pointer;
+	white-space: nowrap;
+
+	transition: all 150ms ease-out;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
+}
+
+.fsel ul.options li.selected {
+	background: #d5263f;
+	color: #fff;
+}
+
+.fsel ul.options li:hover {
+	background: #d5263f;
+	color: #fff;
+	cursor: pointer;
+}

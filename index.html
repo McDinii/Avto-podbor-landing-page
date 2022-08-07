@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Refresh" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/fancySelect.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <!--  <link rel="stylesheet" href="assets/.js/libs/horizontal.css"> -->
+    <link rel="stylesheet" href="css/sel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Подключаем библеотеку jQuery, которая хранится на сервере Яндекса -->
+    <!--<script charset="UTF-8" async="" src="js/init"></script>-->
+    <script async="" src="js/tag.js"></script>
+
+    <title>Автоподбор машин Гомель</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push( arguments )
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement( t ), a = e.getElementsByTagName( t )[0], k.async = 1, k.src = r, a.parentNode.insertBefore( k, a )
+        })
+        ( window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym" );
+
+        ym( 51060497, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        } );
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89539587" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag..js) - Google Analytics -->
+    <script async="" src="js/.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push( arguments );
+        }
+
+        gtag( 'js', new Date() );
+
+        gtag( 'config', 'UA-124671952-2' );
+    </script>
+    <script type="text/javascript">!function () {
+        var t = document.createElement( "script" );
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?160", t.onload = function () {
+            VK.Retargeting.Init( "VK-RTRG-312066-6jaFa" ), VK.Retargeting.Hit()
+        }, document.head.appendChild( t )
+    }();</script>
+    <script type="text/javascript" async="" src="js/openapi.js"></script>
+    <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-312066-6jaFa" style="position:fixed; left:-999px;" alt=""/>
+    </noscript>
+
+    <script type="text/javascript">
+        //Этот код добавляет во все формы на сайте скрытое поле, которые содержит идентификатор посетителя Яндекс.Метрики ClientID.
+        //Поле имеет вид <input type="hidden" name="ClientID" value="1234567899123456789">
+        //Для работы кода необходимо в переменной ya_counter_id записать идентификатор счетчика вашего сайта в Яндекс.Метрике
+        //При обработке на сервере значение поля будет содержаться в переменной $_REQUEST['ClientID']
+        //Значение этой переменной необходимо передать в отдельное поле в сделку в CRM
+        (function () {
+            var ya_counter_id = '89539587'; // Изменить на идентификатор счетчика вашего сайта в Яндекс.Метрике
+            var ya_client_id = '';
+            var setYaClientId = function () {
+                var intervalYaClientId = setInterval( function () {
+                    try {
+                        if (typeof window['yaCounter' + ya_counter_id] !== "undefined" && typeof window['yaCounter' + ya_counter_id].getClientID !== "undefined") {
+                            ya_client_id = window['yaCounter' + ya_counter_id].getClientID();
+                            if (!ya_client_id)
+                                return;
+                            var forms = document.getElementsByTagName( "form" );
+                            for (var i = 0; i < forms.length; i++) {
+                                var input = document.createElement( "INPUT" );
+                                input.type = "hidden";
+                                input.name = "ClientID";
+                                input.value = ya_client_id;
+                                forms[i].appendChild( input );
+                            }
+                            clearInterval( intervalYaClientId );
+                        }
+                    } catch (err) {
+                    }
+                }, 1000 );
+            };
+            setYaClientId();
+        })();
+    </script>
+
+
+    <style type="text/css">.fancybox-margin {
+        margin-right: 14px;
+    }</style>
+</head>
+
+<body >
+
+<div class="main">
+    <div class="header_back">
+        <div class="background"
+             style="background: url(img/main-bg.jpg);background-size: cover;
+                                  background-position: center"></div>
+        <div class="container">
+            <header class="header" style="z-index: 14; position: relative;">
+                <div class="logo--wrap">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="Авто подбор Гомель">
+                    </a>
+                    <div class="logo__desc">
+                        Профессиональный подбор автомобилей
+                        <span>По всей Беларуси</span>
+                        <span>С детальным осмотром</span>
+                        <span>и&nbsp;тест-драйвом 30 дней</span>
+                    </div>
+                </div>
+
+                <div class="burger-wrap">
+                    <div class="burger"></div>
+                </div>
+
+                <div class="mobile-menu--hidden">
+                    <div class="adress--wrap">
+                        <div class="adress__text">
+                            г. Гомель,
+                            <span>Выезд по городу!</span>
+                            <span>Информация</span>
+                            <span>Информация</span>
+                        </div>
+                        <div class="map">
+                            <div class="adress__link link">
+                                Посмотреть на карте
+                            </div>
+                            <div class="map-top" style="background-color: #fff;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social--wrap">
+                        <div class="social__text">
+                            Мы в соц сетях:
+                        </div>
+
+                        <div class="social__links">
+                            <a href="https://vk.com/" class="social-link__item" target="_blank">
+                                <svg class="vk" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 10">
+                                    <defs>
+                                        <g id="a">
+                                            <g transform="translate(-1226 -59)">
+                                                <path id="uw4ca"
+                                                      d="M1234.33 68.95h1.01s.3-.03.47-.2c.14-.16.14-.46.14-.46s-.02-1.4.6-1.61c.63-.2 1.43 1.35 2.28 1.95.64.46 1.13.36 1.13.36l2.27-.04s1.19-.07.62-1.03c-.04-.08-.32-.71-1.68-2.01-1.43-1.36-1.24-1.14.48-3.5 1.04-1.43 1.46-2.3 1.33-2.68-.13-.36-.98-.73-.98-.73h-2s-.66.46-.8.54c-.14.09-.22.28-.22.28s-.4 1.11-.95 2.06c-1.14 1.99-1.59 2.1-1.78 1.97-.43-.29-.32-1.16-.32-1.78 0-1.93.28-2.73-.55-2.94a4.21 4.21 0 0 0-1.2-.12 5.3 5.3 0 0 0-2.12.23c-.29.14-.51.47-.37.49.16.02.55.1.75.39.26.36.25 1.19.25 1.19s.15 2.27-.35 2.55c-.34.2-.82-.2-1.83-2-.52-.93-.91-1.95-.91-1.95s-.08-.2-.21-.3a2.36 2.36 0 0 1-.39-.61h-2s-.8.48-.93.64c-.12.15-.01.45-.01.45s1.9 4.58 4.05 6.89c1.98 2.11 4.22 1.97 4.22 1.97z"></path>
+                                            </g>
+                                        </g>
+                                    </defs>
+                                    <use xlink:href="#a"></use>
+                                </svg>
+                            </a>
+
+                            <a href="https://telegram.org" class="social-link__item"
+                               target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     width="25" height="30" viewBox="3 3 40 45" x="0px" y="0px">
+                                    <defs>
+                                        <g id="tg" fill="#da2d2d">
+
+                                            <path fill="#fff"
+                                                  d="M34,15l-3.7,19.1c0,0-0.2,0.9-1.2,0.9c-0.6,0-0.9-0.3-0.9-0.3L20,28l-4-2l-5.1-1.4c0,0-0.9-0.3-0.9-1	c0-0.6,0.9-0.9,0.9-0.9l21.3-8.5c0,0,0.7-0.2,1.1-0.2c0.3,0,0.6,0.1,0.6,0.5C34,14.8,34,15,34,15z"></path>
+                                            <path fill="#b0bec5"
+                                                  d="M23,30.5l-3.4,3.4c0,0-0.1,0.1-0.3,0.1c-0.1,0-0.1,0-0.2,0l1-6L23,30.5z"></path>
+                                            <path fill="#cfd8dc"
+                                                  d="M29.9,18.2c-0.2-0.2-0.5-0.3-0.7-0.1L16,26c0,0,2.1,5.9,2.4,6.9c0.3,1,0.6,1,0.6,1l1-6l9.8-9.1	C30,18.7,30.1,18.4,29.9,18.2z"></path>
+                                        </g>
+
+                                    </defs>
+                                    <use xlink:href="#tg"></use>
+                                </svg>
+                            </a>
+
+                            <a href="https://www.instagram.com/" class="social-link__item" target="_blank">
+                                <svg class="inst" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 19 19">
+                                    <defs>
+                                        <g id="i">
+                                            <g transform="translate(-1171 -55)">
+                                                <path id="xq18a"
+                                                      d="M1190 60.24v8.51c0 2.9-2.35 5.25-5.24 5.25h-8.52a5.25 5.25 0 0 1-5.24-5.25v-8.51c0-2.9 2.35-5.24 5.24-5.24h8.52c2.89 0 5.24 2.35 5.24 5.24zm-1.69 8.51v-8.51c0-1.96-1.6-3.56-3.55-3.56h-8.52a3.56 3.56 0 0 0-3.55 3.56v8.51c0 1.97 1.6 3.56 3.55 3.56h8.52c1.96 0 3.55-1.6 3.55-3.56zm-2.91-4.25a4.9 4.9 0 1 1-9.8-.01 4.9 4.9 0 0 1 9.8 0zm-1.69 0a3.21 3.21 0 1 0-6.43 0 3.21 3.21 0 0 0 6.43 0zm2.77-5.97a1.24 1.24 0 0 1 0 1.75 1.25 1.25 0 0 1-2.11-.87 1.24 1.24 0 0 1 1.23-1.24c.33 0 .65.13.88.36z"></path>
+                                            </g>
+                                        </g>
+                                    </defs>
+                                    <use xlink:href="#i"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="time--wrap">
+                        <div class="time__text">
+                            Пн-Вс 10:00 - 19:00
+                        </div>
+                        <a href="tel:+375293354677" class="time__number">
+                            +375 (29) 7777777</a>
+                        <a href="#order" class="time__link link order-link ">
+                            Получить консультацию
+                        </a>
+                    </div>
+                </div>
+
+
+            </header>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="main__content">
+            <div class="main__content-text">
+
+                <div class="main__title">
+                    <div>Авто подбор
+                        от Профессионалов <br/> с <span>10 летним</span> опытом
+                    </div>
+                </div>
+
+                <ul class="main__list">
+                    <li class="">Экономия времени</li>
+                    <li class="">Профессиональный осмотр</li>
+                    <li class="">Полная проверка автомобиля</li>
+                    <li class="">Скидка 10% в нашей автомастерской</li>
+                </ul>
+
+                <div class="main__btn--wrap">
+                    <a href="#" class="btn main__btn btn-anim  consult-open leaking">
+                        <span>Заказать звонок</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="cta">
+    <div class="container">
+        <div class="cta-block">
+            <div class="section-title">
+                Оставьте заявку и <br>
+                специалист свяжется с вами в течение дня!
+            </div>
+            <div class="cta__img">
+                <img src="img/catalog.png" alt="catalog">
+            </div>
+
+            <div class="cta-form--wrap">
+                <form class="cta-form form-script" id="contact-form_1"
+                      method="POST" autocomplete="off" enctype="multipart/form-data">
+                    <div class="preloader"></div>
+                    <p class="cta-form__message"></p>
+                    <div class="cta-form__input ">
+                        <input type="text" name="name" class="input" placeholder="Введите Ваше имя" id="name1">
+                    </div>
+
+                    <br>
+                    <div class="cta-form__input tel">
+                        <input type="tel" name="phone" id="phone1" class="input"
+                               placeholder="Введите Ваш телефон">
+                    </div>
+                    <br>
+                    <div class="cta-form__input email">
+                        <input type="email" name="email" id="email1" class="input"
+                               placeholder="Введите Ваш email (необязательно)">
+                    </div>
+                    <br>
+                    <div class="cta-form__input email">
+                        <input type="text" name="tg" minlength="6" id="tg1" class="input"
+                               placeholder="Введите Ваш Telegram (необязательно)">
+                    </div>
+                    <div class="cta-form__title-radio">
+                        Предпочитаемый способ связи:
+                    </div>
+                    <div class="cta-form__list">
+                        <div class="cta-form__list__item">
+                            <input type="radio" id="tg_radio" name="radio" value="Telegram">
+                            <label for="tg_radio">
+                                <i class="fa fa-telegram cta-form__list__icon" aria-hidden="true"></i>
+                                <span>Telegram</span>
+                            </label>
+                        </div>
+                        <div class="cta-form__list__item">
+                            <input type="radio" id="tel_radio" checked name="radio" value="Phone">
+                            <label for="tel_radio">
+                                <i class="fa fa-phone cta-form__list__icon" aria-hidden="true"></i>
+                                <span>Телефон</span>
+                            </label>
+                        </div>
+                        <div class="cta-form__list__item">
+                            <input type="radio" id="mail_radio" name="radio" value="Mail">
+                            <label for="mail_radio">
+                                <i class="fa fa-envelope cta-form__list__icon" aria-hidden="true"></i>
+                                <span>Почта</span>
+                            </label>
+                        </div>
+                    </div>
+                    <input name="theme" type="hidden" class="input"
+                           value="Новая заявка на Автоподбор">
+
+
+                    <div class="cta-form__btn--wrap">
+                        <button class="btn cta-form__btn btn-anim leaking"
+                                type="submit">
+                            <span>Оставить заявку</span>
+                        </button>
+                    </div>
+
+                    <input type="hidden" name="ClientID" value="1657619324925526605"></form>
+            </div>
+        </div>
+        <div class="cta-block-2"></div>
+        <div class="cta-block-3" id="order"></div>
+    </div>
+</div>
+
+
+<div class="safety">
+    <div class="container">
+        <div class="section-title inverse">
+            Боитесь, что при поиске авто Вас обманут перекупщики или мошенники?
+        </div>
+    </div>
+
+
+    <div class="section-subtitle section-subtitle--big">
+        <span class="right">С нами этого точно не случиться! После детального осмотра, диагностики автомобиля и
+            общения с продавцом, вам озвучат оценку
+            <span
+                    class="block">целесообразности покупки и все нюансы покупки, которые буду сторгованы до копейки.</span>
+         </span>
+    </div>
+    <div class="container">
+        <div class="safety-block">
+            <div class="safety__img">
+                <img src="img/car2.png" alt="авто-подбор" class="safety__car">
+                <img src="img/car-smoke.png" alt="" class="safety__smoke">
+            </div>
+            <div class="safety__text">
+                Авто подбор, при следовании простым советам, пройдет гораздо легче и успешнее.
+
+                <span>
+            Даже без помощи специалистов.
+          </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="things">
+    <div class="container">
+        <div class="section-title inverse">
+            3 вещи которые важно знать при ПОДБОРЕ б/у авто
+        </div>
+        <div class="things-block">
+
+            <div class="things__item">
+                <span>01</span>
+                <div class="things__title">
+                    Остерегайтесь «Серых» дилеров
+                </div>
+                <div class="things__text">
+                    <p>Эти ребята зарабатывают себе на жизнь их излюбленным способ обмана - маскировкой под официального
+                        дилера.</p>
+
+                    <p>Всегда имейте в виду, что «серые» дилеры, предлагающие цены ниже рынка, работают только
+                        мошенническим образом.</p>
+                </div>
+            </div>
+
+            <div class="things__item">
+                <span>02</span>
+                <div class="things__title">
+                    Избегайте перекупщиков
+                </div>
+                <div class="things__text">
+                    <p>До сих пор огромный процент сделок приходится на частных “перекупщиков”, которые нацелены прежде
+                        всего на том, чтобы заработать, а именно “взять подешевле, отдать подороже”. К тому же за
+                        историю
+                        автомобиля он особой ответственности не несет.</p>
+                    <p>Есть большая вероятность, что покупка у
+                        частника
+                        без должного "обследования" автомобиля может закончиться неприятностями, есть большой шанс
+                        нарваться
+                        на «кота в мешке» и купить автомобиль с тщательно замаскированными дефектами.</p>
+                    <p>Поэтому если не
+                        уверены в продавце, обратитесь к профессионалам, которые проверят авто, либо попробуйте найти
+                        что-то похожее у официального диллера.</p>
+                </div>
+            </div>
+
+            <div class="things__item">
+                <span>03</span>
+                <div class="things__title">
+                    Скрученный пробег у частников
+                </div>
+                <div class="things__text">
+                    <p>“Скручиванием” пробега занимаются практически все, кто имеет отношение к купле-продаже
+                        автомобилей.</p>
+                    <p>Но максимально злоупотребляют этим действием именно «частники».</p>
+                    <p>Давно зарекомендовавшие себя
+                        компании на рынке чаще всего не прибегают к подобным методам, дабы не портить себе
+                        репутацию.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="services">
+    <div class="container">
+        <div class="section-title">
+            Какие услуги в себя включает авто-подбор
+            <span class="block">и сколько это стоит?</span>
+        </div>
+        <div class="services__table">
+
+            <div class="services__column">
+                <div class="services__header services__one">
+                    Разовый осмотр
+                </div>
+                <div class="services__price services__two">
+                    от 55byn
+                </div>
+                <div class="services__item services__three">
+
+                    <ul class="services__list">
+                        <li>Считывание ошибок диагностическим оборудованием.</li>
+                        <li>Оценка целесообразности покупки.</li>
+                        <li>Диагностика автомобиля.</li>
+                        <li>Выявление реального пробега.</li>
+                        <li>Первичный осмотр.</li>
+                        <li>Детальный осмотр кузова.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="services__column">
+                <div class="services__header services__one">
+                    Специалист на день
+                </div>
+                <div class="services__price services__two">
+                    от 18Оbyn
+                </div>
+                <div class="services__item services__three">
+                    <ul class="services__list">
+                    <li>Помощь в подборе наиболее лучших вариантов.</li>
+                    <li>Неограниченное количество машин.</li>
+                    <li>Сопровождение сделки.</li>
+                    <li>Считывание ошибок диагностическим оборудованием.</li>
+                    <li>Оценка целесообразности покупки.</li>
+                        <li>Диагностика автомобиля.</li>
+                        <li>Выявление реального пробега.</li>
+                    <li>Первичный осмотр.</li>
+                    <li>Детальный осмотр кузова.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="services__column">
+                <div class="services__header services__one">
+                    Авто под ключ
+                </div>
+                <div class="services__price services__two">
+                    от 400byn
+                </div>
+                <div class="services__item services__three">
+
+                    <ul class="services__list">
+                        <li>Аргументированно торгуемся вместо вас</li>
+                        <li>Полные отчеты по авто в электронном виде</li>
+                        <li>С нас автомобиль, а с вас согласие на покупку</li>
+                        <li>Помощь в подборе наиболее лучших вариантов.</li>
+                        <li>Неограниченное количество машин.</li>
+                        <li>Сопровождение сделки.</li>
+                        <li>Считывание ошибок диагностическим оборудованием.</li>
+
+                        <li>Оценка целесообразности покупки.</li>
+                        <li>Диагностика автомобиля.</li>
+                        <li>Выявление реального пробега.</li>
+                        <li>Первичный осмотр.</li>
+                        <li>Детальный осмотр кузова.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="services__btn--wrap">
+            <a href="#order"
+               class="btn cta-form__btn services__btn btn-anim order-link leaking">
+                <span>Оставить заявку</span>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="after">
+    <div class="container">
+        <div class="footer">
+            <div class="section-title inverse">
+                Ждем Вас по адресу:
+            </div>
+            <div class="contacts-block">
+                <div class="contacts-content">
+                    <div class="contacts__adress">
+                        Адрес
+                        <br>Адрес
+
+
+                    </div>
+                    <div class="contacts--wrap">
+                        <div class="contacts__number">
+                            <i class="fa fa-phone contacts__icon" aria-hidden="true"></i>
+                            <a href="tel:80293596096" class="time__number2">8 (029) 35-960-96</a>
+                        </div>
+                        <div class="contacts__mail">
+                            <i class="fa fa-envelope contacts__icon" aria-hidden="true"></i>
+                            <a href="mailto:nechaywork@gmail.com"
+                               class="link contacts__mail--link">nechaywork@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts__subscription">
+                        Подпишитесь на наши акции в соц. сетях:
+                    </div>
+
+                    <div class=" contacts__links">
+                        <a href="https://vk.com/" class="contacts-link__item" target="_blank">
+                            <svg class="vk" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 10">
+                                <use xlink:href="#a"></use>
+                            </svg>
+                        </a>
+                        <a href="https://telegram.org" class="contacts-link__item" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="25" height="30" viewBox="3 3 40 45" x="0px" y="0px">
+                                <use xlink:href="#tg"></use>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/" class="contacts-link__item" target="_blank">
+                            <svg class="inst" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 19 19">
+                                <use xlink:href="#i"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        <div class="overlay" id="modal-recal">
+            <div class="popup-wrap">
+                <div class="popup popup-recall">
+                    <div class="popup__close-wrap">
+                        <div class="popup__close"></div>
+                    </div>
+
+                    <div class="popup__content popup__form">
+                        <div class="popup__title">
+                            Перезвоним в течение <span class="block">60 минут</span>
+                        </div>
+                        <div class="popup__subtitle">
+                            и проконсультируем по автоподбору <span class="block">Вашего автомобиля</span>
+                        </div>
+
+                        <form class="form-script" id="contact-form_2" method="POST" autocomplete="off"
+                              enctype="multipart/form-data">
+                            <div class="preloader"></div>
+                            <p class="cta-form__message"></p>
+                            <div class="cta-form__input popup__input name">
+                                <input type="text" name="name" class="input" id="name2" value=""
+                                       placeholder="Введите Ваше имя"/>
+                            </div>
+
+                            <div class="cta-form__input popup__input tel">
+                                <input type="tel" name="phone" value="" id="phone2" class="input"
+                                       placeholder="Введите Ваш телефон">
+                            </div>
+
+                            <input name="theme" type="hidden" class="input"
+                                   value="Заказ звонка Автоподбор">
+                            <div class="cta-form__btn--wrap">
+                                <button class="btn popup__btn popup__btn-recall btn-anim leaking"
+                                        type="submit">
+                                    <span>Заказать звонок</span>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="popup-cantwait">
+                        <div class="popup-cantwait__title">
+                            Нет времени ждать? Звоните!
+                        </div>
+                        <div class="popup-cantwait__time">
+                            Пн-Вс 10:00 - 19:00
+                        </div>
+                        <div class="popup-cantwait__number">
+                            <span><a href="tel:80293596096" class="time__number3">8 (029) 359-60-96</a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay" id="modal-check">
+            <div class="popup-wrap">
+                <div class="popup popup-check">
+                    <div class="popup__close-wrap">
+                        <div class="popup__close"></div>
+                    </div>
+
+                    <div class="popup__content">
+
+                        <div class="popup__img"></div>
+
+                        <div class="popup__title">
+                            Спасибо за заявку!<br>
+                            <span>
+                        <span>
+          </span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/libs/jquery-3.3.1.min.js"></script>
+        <script src="slick/slick.min.js"></script>
+        <script src="js/libs/fancySelect.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/libs/fancybox/jquery.fancybox.pack.js"></script>
+        <script src="js/libs/jQuery.scrollSpeed.js"></script>
+        <script src="js/main.js"></script>
+        <script src="botmessage/js/tg.js"></script>
+        <script src="js/jquery.mask.js"></script>
+        <script>
+            $( function () {
+                $( 'input[type="tel"]' ).mask( '+375 (00) 000-00-00' );
+                $( 'input[name="tg"]' ).mask( '@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' );
+            } );
+        </script>
+    </div>
+</div>
+
+</body>
+</html>
